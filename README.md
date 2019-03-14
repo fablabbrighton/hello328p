@@ -3,9 +3,27 @@
 
 ![Hello 328p board](media/hello328p-milledandstuffed.jpg)
 
-**Hello 328p** is designed to be a 100% Arduino Uno-compatible board using the ATmega328P microcontroller that can be easily fabricated by students in a fablab. It is very heavily based on [Daniele Ingrassia's Satshakit board](https://github.com/satshakit/satshakit), which also serves the same purpose. The main changes to this design are to provide a simpler way to connect things to the board through more convenient headers and labelling on the board itself.
+**Hello 328p** is designed to be a 100% Arduino Uno-compatible board, that can be easily fabricated by students in a fablab. It uses the ATmega328P microcontroller and is very heavily based on [Daniele Ingrassia's Satshakit board](https://github.com/satshakit/satshakit), which also serves the same purpose. The main changes to this design are to provide a simpler way to connect things to the board through more convenient headers and labelling on the board itself.
 
 Please read [Daniele's documentation](https://github.com/satshakit/satshakit) for full details on this board. These docs will only address the changes made.
+
+## Background
+
+I have spent a few months exploring different approaches to making your own Arduino-compatible board. My aim is to find (or design myself) a board that can be easily milled and stuffed by students, and then used in their own interactive projects. I also wanted to lern more about Arduino, the ATMega328p and board design in the process. 
+
+You can read more about that here: [DIY Arduino docs](https://fablabbrighton.github.io/digital-fabrication-module/diy-arduino/)
+
+After trying many boards is a starting point, I found Daniele's Satshakit design, which was well-documented, simple, and tested in a Fablab. I successfully made and programmed the board, but I found the hader arrangement rather unhelpful.
+
+![Programming the satshakit with a FabISP](media/program-satshakit.jpg)
+
+
+In this photo, I'm using my FabISP to program a Satshakit. You can see that it involves a lot of jumper wires, and that there is no simple connection between the 3x2 pin ISP header on the programmer, and the relevant pins on the target board. 
+
+![Programming the satshakit via FTDI](media/program-satshakit2.jpg)
+
+Similarly, programming using an FTDI cable or breakout board (as in the photo above) involves a non-intuitive routing of pins from the programming cable (or board) to the target.
+
 
 
 hello328p-milledandstuffed.jpg
