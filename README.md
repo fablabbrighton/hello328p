@@ -1,8 +1,18 @@
-<h1 style="font-family: courier;" align="center">satshakit</h1>
-<p align="center">
-<img src="media/readme/satshakites.jpg" width="70%">
-<div align="center"><i>An improved & fabbable 100% Arduino IDE/libraries compatible board.</i></div>
-</p>  
+# Hello 328p!
+
+
+![Hello 328p board](media/hello328p-milledandstuffed.jpg)
+
+**Hello 328p** is designed to be a 100% Arduino Uno-compatible board using the ATmega328P microcontroller that can be easily fabricated by students in a fablab. It is very heavily based on [Daniele Ingrassia's Satshakit board](https://github.com/satshakit/satshakit), which also serves the same purpose. The main changes to this design are to provide a simpler way to connect things to the board through more convenient headers and labelling on the board itself.
+
+Please read [Daniele's documentation](https://github.com/satshakit/satshakit) for full details on this board. These docs will only address the changes made.
+
+
+hello328p-milledandstuffed.jpg
+programming-hello328p.jpg
+
+
+
 
 
 The story
