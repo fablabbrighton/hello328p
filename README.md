@@ -30,8 +30,13 @@ However, that pushes some complexity back onto the user, who has to figure out w
 
 ## Hello 328p header layout
 
+This diagram shows all the headers, and which pins on the chip they are connected to. In addition, pin functions for the FTDI and ISP headers are highlighted in pink, and the Arduino labels for analogue and digital pins are highlighted in yellow.
 
-WIP
+![Hello 328p pinout](media/hello-328p-pinout-labels.png)
+
+You may also wish to consult the official pinout for the ATmega328P chip (TQFP package) from the datasheet:
+
+![Datasheet pinout](media/atmega328p-datasheet-pinout-32pin-tqpf.png)
 
 
 ## Programming the board
@@ -44,7 +49,7 @@ Following the Satshakit instructions:
 
 Where we diverge from the Satshakit process is that our connections are simpler. If you're using a FabISP, simply connect the ribbon cable to the ISP on both boards. the GND pin on the ISP heder is marked with a G.
 
-T program with an FTDI cable, simply connect to the header labelled FTDI. Again, the GND pin is marked with a G.
+To program with an FTDI cable, simply connect to the header labelled FTDI. Again, the GND pin is marked with a G.
 
 
 Returning to the original instructions:
