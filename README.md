@@ -13,7 +13,7 @@ I have spent a few months exploring different approaches to making your own Ardu
 
 You can read more about that here: [DIY Arduino docs](https://fablabbrighton.github.io/digital-fabrication-module/diy-arduino/)
 
-After trying many boards is a starting point, I found Daniele's Satshakit design, which was well-documented, simple, and tested in a Fablab. I successfully made and programmed the board, but I found the hader arrangement rather unhelpful.
+After trying many boards is a starting point, I found Daniele's Satshakit design, which was well-documented, simple, and tested in a Fablab. I successfully made and programmed the board, but I found the header arrangement rather unhelpful.
 
 ![Programming the satshakit with a FabISP](media/program-satshakit.jpg)
 
@@ -26,7 +26,12 @@ Similarly, programming using an FTDI cable or breakout board (as in the photo ab
 
 The upside of this approach is that the board design is very simple. Almost all the pins from the microcontroller are simply exposed out to pins on headers that surround it. The traces are very straightforward.
 
-However, that pushes some complexity back onto the user, who has to figure out which pins to connect where, when burning the bootloader, or whenever they want to program the board. I think there is a friendlier way to do this, with only a small overhead in complexity of traces.
+However, that pushes some complexity back onto the user, who has to figure out which pins to connect where, when burning the bootloader, or whenever they want to program the board. I think there is a friendlier way to do this, with only a small overhead in complexity of traces. _Hello 328p_ is my attempt at that.
+
+The photo below shows the Hello 328p board being programmed with a FabISP, via one simple ribbon cable. You can also see the handy pads for connecting a power supply with crocodile clips.
+
+![Hello 328p programming](media/programming-hello328p.jpg)
+
 
 ## Hello 328p header layout
 
